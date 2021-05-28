@@ -1,8 +1,6 @@
 const express=require("express");
 const app=express();
-app.listen(process.env.PORT||3002, function(){
-    console.log("server is running");
-})
+app.listen(process.env.PORT||3002)
 const cors=require("cors");
 app.use(cors());
 app.use(express.json());

@@ -1,7 +1,6 @@
 const express=require("express");
 const fs=require("fs");
 let data;
-let data1;
 const app=express();
 app.listen(process.env.PORT||3000, function(){
     console.log("server is running");

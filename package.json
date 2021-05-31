@@ -9,7 +9,8 @@
   "main": "index1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node ."
+    "start":"node .",
+    "dummy":"xx"
   },
   "author": "",
   "license": "ISC",
